@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman - developer , programmer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(10, 10, 61);
+        color: white;
+        font-family: 'Poppins';
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: blueviolet;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul li a:hover {
+        color: rgb(128, 128, 224);
+        font-size: 1.02rem;
+    }
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .first {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+    }
+
+    .first>div {
+        width: 30%;
+
+    }
+
+    .leftsection {
+        font-size: 2rem;
+
+    }
+
+    .rightsection {
+        img {
+            width: 80%;
+
+        }
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    #element {
+        color: blueviolet;
+    }
+
+    .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .text-gray {
+        color: grey;
+    }
+
+    .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+    }
+
+    .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+    }
+
+    .vertical-tittle {
+        position: relative;
+        top: 90px;
+        width: 150px;
+
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 90px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+    }
+    footer{
+        background-color: rgb(55, 55, 82);
+        height: 133px;
+        
+    }
+    .footer{
+        display: flex;
+        padding: 23px 123px ;
+        justify-content: space-evenly;
+
+    }
+    .footer > div{
+        width: 123px;
+    }
+    .footertext-center{
+         text-align: center;
+         color: gray;
+         padding: 12px 0;
+    }
+    .leftsection .btn{
+        padding: 12px;
+        border: 2px solid white;
+        background-color: darkmagenta;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 6px;
+    }
+    .leftsection.button{
+       padding: 50px 0;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aman portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">home</a></li>
+                    <Li><a href="/">About</a></Li>
+                    <li><a href="/">services</a></li>
+                    <li><a href="/">projects</a></li>
+                    <li><a href="/">contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Aman</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="Aman resume (1) (1).pdf">Download Resume</a></button>
+                <button class="btn"> <a href="https://github.com/Sharma-aman-45">visit GitHub</a> </button>
+                </div>
+                
+
+            </div>
+            <div class="rightsection">
+                <img src="3d-web-developer-working-on-project-illustration-png.webp">
+            </div>
+        </section>
+        <hr style="border:0;
+             margin: 40px 84px;
+             height: 1.2px;
+             background: aquamarine;">
+
+        <section class="secondsection">
+            <span class="text-gray"> what i have done so far</span>
+            <h1>Work Experince</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.jpeg" alt="">
+                    <div class="vertical-title">
+                        HTML,CSS Developer(2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Small freelancing projects based on html and css used for front-end designing.
+                    </div>
+                </div>
+
+                    <div class="vertical">
+                        <img class="image-top" src="internshala.jpeg" alt="">
+                        <div class="vertical-title">
+                            Trainning on webdevelopment (2023)
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                             Internshala Trainning used to upscale many developing skills like html,css,js,sql,php,react with the help of project.
+                        </div>
+                    </div>
+
+                
+        </section>
+        <section class="secondsection">
+            <span class="text-gray"> Achivements</span>
+            <h1>Courses and Certification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="internshala.jpeg" alt="">
+                    <div class="vertical-title">
+                        webdevelopment trainning course
+                    </div>
+                    <div class="vertical-desc"style="margin: -46px 0;">
+                        Internshala Trainning used to upscale many developing skills like html,css,js,sql,php,react with the help of project.
+                       </div>
+                </div>
+
+                    <div class="vertical">
+                        <img class="image-top" src="nptel.jpeg" alt="">
+                        <div class="vertical-title">
+                            Programming in java
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                            Government affilated creditable course offered by NPTEL(IIT-kharakpur)
+                        </div>
+                    </div>
+
+                    <div class="vertical">
+                        <img class="image-top" src="OIP.jpeg" alt="">
+                        <div class="vertical-title">
+                             Javascript course
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                           Javascript course offered by travesy media on youtube in which i designed and implemented many small projects using js and dom manupulation.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="meta.jpeg" alt="">
+                        <div class="vertical-title">
+                             Basic Backend programming
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                           A courseera course of backend programming offered by Meta
+                           provide useful knowledge how to send and recieve requets znd how to fetch data.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="g.jpeg" alt="">
+                        <div class="vertical-title">
+                            Data analyst
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                           A courseera course of  data anlysis offered by Google
+                           provide useful knowledge how to survey and predict optimal result from large dataset.
+                        </div>
+                    </div>
+                
+        </section>
+        <section class="secondsection">
+            <span class="text-gray"> skills</span>
+            <h1>Technical skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="java.jpeg" alt="">
+                    <div class="vertical-title">
+                       Languages
+                    </div>
+                    <div class="vertical-desc">
+                        <li>java</li>
+                         <li> python</li>
+                         <li> basic C programming</li>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>Javascript</li>
+                         <li> PHP</li>
+                    </div>
+                </div>
+
+                    <div class="vertical">
+                        <img class="image-top" src="bs.jpeg" alt="">
+                        <div class="vertical-title">
+                            Framework & Technology
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                            <li>React</li>
+                            <li> Bootstrap</li>
+                        </div>
+                    </div>
+
+                    <div class="vertical">
+                        <img class="image-top" src="sql.jpeg" alt="">
+                        <div class="vertical-title">
+                            DataBase and Deployment
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                            <li>My SQL</li>
+                            <li> SQL</li>
+                            <li> phpmyadmin</li>
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="dbms.jpeg" alt="">
+                        <div class="vertical-title">
+                           Coursework
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                            <li>DBMS</li>
+                            <li> Computer network</li>
+                            <li>software engineering</li>
+                            <li> web technology</li>
+                        </div>
+
+                    </div>
+                    <div class="vertical">
+                        <img class="image-top" src="dsa.jpeg" alt="">
+                        <div class="vertical-title">
+                            others
+                        </div>
+                        <div class="vertical-desc" style="margin: -46px 0;">
+                            <li>Data structure using java</li>
+                            <li> OOPS</li>
+                            
+                        </div>
+                    </div>
+
+
+                
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="firstlogo">
+                <h3>My portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="https://www.instagram.com/sharma_aman_45?igsh=cm5tcm80OHd2emVr">sharma_aman_45</a></li>
+                    <li><a href="https://www.linkedin.com/in/aman-sharma-1891ab265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">aman sharma</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footertext-center">
+            Copyright &#169Amansportfolio.com | All rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Web Developer.', '&amp; a Web Designer.', 'Data analyst'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
